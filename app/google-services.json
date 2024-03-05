@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1089209954934",
+    "project_id": "crude-91638",
+    "storage_bucket": "crude-91638.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089209954934:android:622443864702e517f7e557",
+        "android_client_info": {
+          "package_name": "com.example.crude_runtimedatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAevvQ5UfHR7bc-30FDVfAWiggDvnD_g48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

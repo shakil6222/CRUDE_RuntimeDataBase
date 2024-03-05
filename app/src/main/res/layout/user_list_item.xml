@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20sp"
+    android:backgroundTint="#B4DFA4A4"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="4dp">
+        <TextView
+            android:id="@+id/userName_TextView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:text="Name Title"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/email_TextView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:maxLength="100"
+            android:paddingLeft="10dp"
+            android:text="Email"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/password_TextView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:maxLength="100"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="password"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="250dp"
+        android:id="@+id/update_imageView"
+        android:src="@drawable/update_image"
+        android:layout_height="30dp"
+        tools:ignore="ContentDescription" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/delete_imageView"
+        android:layout_marginStart="300dp"
+        android:src="@drawable/baseline_delete_24"
+        android:layout_height="30dp"
+        tools:ignore="ContentDescription" />
+</androidx.cardview.widget.CardView>
